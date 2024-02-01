@@ -1,0 +1,6 @@
+
+spring:
+  data:
+    mongodb:
+      uri: ${DB_HOST:mongodb://paras:admin@ec2-65-0-92-46.ap-south-1.compute.amazonaws.com/test}
+      auto-index-creation: true
