@@ -2,7 +2,7 @@
 spring:
   data:
     mongodb:
-      uri: ${DB_HOST:mongodb://paras:admin1992@ec2-15-206-93-148.ap-south-1.compute.amazonaws.com/product}
+      uri: ${DB_HOST:mongodb://paras:admin1992@ec2-13-234-115-155.ap-south-1.compute.amazonaws.com/product}
       auto-index-creation: true
   kafka:
     bootstrap-servers: ${ZOOKEEPER_HOST:localhost:9092}
