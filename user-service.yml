@@ -2,5 +2,5 @@
 spring:
   data:
     mongodb:
-      uri: ${DB_HOST:mongodb://paras:admin1992@ec2-15-206-67-162.ap-south-1.compute.amazonaws.com/user}
+      uri: ${DB_HOST:mongodb://paras:admin1992@ec2-43-205-255-221.ap-south-1.compute.amazonaws.com/user}
       auto-index-creation: true
