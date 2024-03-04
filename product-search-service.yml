@@ -2,12 +2,12 @@
 spring:
   data:
     mongodb:
-      uri: ${DB_HOST:mongodb://paras:admin@ec2-13-127-211-30.ap-south-1.compute.amazonaws.com/test}
+      uri: ${DB_HOST:mongodb://paras:admin@ec2-3-6-86-174.ap-south-1.compute.amazonaws.com/test}
       auto-index-creation: true
   kafka:
-    bootstrap-servers: ${ZOOKEEPER_HOST:15.206.189.160:9092}
+    bootstrap-servers: ${ZOOKEEPER_HOST:13.235.244.23:9092}
 
 
 elastic:
   search:
-    host-name: ${ELASTIC_SEARCH_HOST:15.206.189.160:9200}
+    host-name: ${ELASTIC_SEARCH_HOST:13.235.244.23:9200}
